@@ -11,8 +11,7 @@ Minimal Android Studio sample: `MaterialCardView` in XML with a Kotlin `AppCompa
 3. Start an emulator (API 24+) or connect a device → click **Run ▶** on the `app` module.
 4. You should see a centered **MaterialCardView** with title, description, and button.
 
-**Screenshot:** Add `docs/screenshot.png` after running the app (emulator showing the card), then reference it here:  
-![App running on emulator](docs/screenshot.png)
+
 
 ## Presentation & submission notes
 
