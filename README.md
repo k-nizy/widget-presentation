@@ -1,4 +1,4 @@
-# Card Widget (Material 3) did the presentation on 3rd june 2026
+# Card Widget (Material 3) — presentation 3 June 2026
 
 Minimal Android Studio sample: `MaterialCardView` in XML with a Kotlin `AppCompatActivity`.
 
@@ -6,7 +6,19 @@ Minimal Android Studio sample: `MaterialCardView` in XML with a Kotlin `AppCompa
 
 ## Run
 
-Open the project in Android Studio and run the **app** configuration on an emulator or device (API 24+).
+1. Clone **https://github.com/k-nizy/widget-presentation** (public repo).
+2. Open the folder in **Android Studio** → wait for Gradle sync.
+3. Start an emulator (API 24+) or connect a device → click **Run ▶** on the `app` module.
+4. You should see a centered **MaterialCardView** with title, description, and button.
+
+**Screenshot:** Add `docs/screenshot.png` after running the app (emulator showing the card), then reference it here:  
+![App running on emulator](docs/screenshot.png)
+
+## Presentation & submission notes
+
+For the **code and verbal explanation** (3–5 min), walk the class step by step: `AndroidManifest.xml` registers the launcher → `MainActivity.kt` calls `setContentView(R.layout.activity_main)` → `activity_main.xml` uses a centered `FrameLayout` and `MaterialCardView` with a `LinearLayout` for title, description, and button → `themes.xml` applies `Theme.Material3` and `colorPrimary` for the stroke. Code is organised and lightly commented so each line maps to the UI on the emulator.
+
+For the **widget attribute demonstration**, name three properties in `activity_main.xml` and change them live: **`cardCornerRadius`** (default `0dp`, demo `24dp` → rounded shape; try `40dp` for a stronger curve—used for visual emphasis); **`cardElevation`** (default `0dp`, demo `8dp` → shadow/depth; compare `0dp` vs `16dp`—used to show hierarchy and interactivity); **`strokeWidth`** + **`strokeColor`** (default no border, demo `2dp` + primary color → outline; set width to `0dp` to remove—used when you want a clear edge without relying on shadow alone). The **GitHub repo** is public at **k-nizy/widget-presentation** with run steps above, attribute notes here, a screenshot in `docs/screenshot.png`, and meaningful commits by **k-nizy**—post the link before **5:00 PM** on the due date.
 
 ## Project structure
 
@@ -17,7 +29,6 @@ app/src/main/
 ├── res/values/themes.xml
 └── AndroidManifest.xml
 ```
-
 
 ## Essential code
 
@@ -107,3 +118,5 @@ class MainActivity : AppCompatActivity() {
 
 </resources>
 ```
+
+Made by **k-nizy** (Kevin Nizy).

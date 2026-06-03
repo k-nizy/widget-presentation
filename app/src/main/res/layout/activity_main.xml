@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:padding="24dp">
 
+    <!-- Property 1: shape | Property 2: depth | Property 3: border -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
