@@ -1,4 +1,4 @@
-# Card Widget (Material 3)
+# Card Widget (Material 3) did the presentation on 3rd june 2026
 
 Minimal Android Studio sample: `MaterialCardView` in XML with a Kotlin `AppCompatActivity`.
 
