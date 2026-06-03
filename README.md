@@ -18,13 +18,6 @@ app/src/main/
 └── AndroidManifest.xml
 ```
 
-## Card properties — 3-minute presentation
-
-1. **Corner radius (`cardCornerRadius="24dp"`)** — Rounds the card’s corners so content reads as a contained surface instead of a sharp rectangle. Larger values feel softer and more prominent; smaller values stay closer to a standard panel.
-
-2. **Elevation (`cardElevation="8dp"`)** — Lifts the card above the background with a shadow so it appears layered and tappable. Higher elevation increases separation from the screen; lower elevation keeps the card flatter and closer to the surface.
-
-3. **Stroke (`strokeWidth="2dp"` + primary `strokeColor`)** — Draws a visible outline around the card edge without relying on shadow alone. Useful for emphasis, focus states, or when elevation is reduced; here the stroke uses the theme primary color so the border matches brand accent.
 
 ## Essential code
 
