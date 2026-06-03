@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Card Widget</string>
+    <string name="card_title">Material Card</string>
+    <string name="card_description">Corner radius, elevation, and stroke define how this card looks and feels on screen.</string>
+    <string name="card_action">Learn more</string>
+</resources>
